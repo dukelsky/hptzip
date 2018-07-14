@@ -37,10 +37,10 @@ matrix:
         - MATRIX_EVAL="CC=clang" CF=-DBUILD_SHARED_LIBS=ON
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install -y rpm; fi
-  - git clone https://github.com/huskyproject/huskylib ~/build/huskyproject/huskylib
+  - git clone https://github.com/dukelsky/huskylib ~/build/dukelsky/huskylib
 script:
   - eval "${MATRIX_EVAL}"
-  - cd  ~/build/huskyproject/huskylib
+  - cd  ~/build/dukelsky/huskylib
   - mkdir build
   - cd build
   - cmake .. "${CF}"
