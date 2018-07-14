@@ -3,7 +3,7 @@
  ******************************************************************************
  * hptzip.c : functions for pack and unpack files from zip archive
  *
- * by Max Chernogor <mihz@mail.ru>, 2:464/108@fidonet
+ * by Max Chernogor <mihz@mail.ru>, 2:464/108@fidonet 
  *
  *****************************************************************************
  * $Id$
